@@ -1,0 +1,135 @@
+body{
+    display: block;
+    font-family: 'Nobile', sans-serif;
+}
+/* -------- Styling the menu-mar ------- */
+#nav-bar{
+    background-color: black;
+    overflow: auto;
+    margin: 0;
+}
+
+.logo{
+    display: inline-block;
+    padding: 20px;
+    color: red;
+    background: pink;
+}
+
+.left {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.horizontalList{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+.horizontalList li{
+    display: inline;
+    padding: 10px;
+}
+.horizontalList a{
+    color: white;
+    text-decoration: none;
+}
+
+.right{
+    display: inline;
+    float: right;
+    margin-right: 25px;
+}
+/* -------- sub-menu style ---------- */
+.sub-menu{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+.sub-menu li{
+    display: inline;
+    padding: 10px;
+}
+.sub-menu li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    box-shadow: 0 3px 0 0 red;
+}
+/* ----- showCase menu style ------ */
+.showCase-menu{
+    /* padding: 200px 25px;
+    background: -webkit-linear-gradient(45deg, rgb(224,63,42, 0.7) 0%,#207cca 0%,#e03f2a 0%,#000000 100%), url(http://www.screenscoop.com/wp-content/uploads/2018/11/Aquaman-Official-Images-09.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background: url(http://www.screenscoop.com/wp-content/uploads/2018/11/Aquaman-Official-Images-09.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding: 200 25px;  
+}
+
+.text-box{
+    width: 50%;
+    color: #FDFFFC;
+}
+
+.text-box h1{
+    font-size: 80px;
+    font-family: 'Hanalei Fill', cursive;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+}
+
+.text-box h4{
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 0 0 3px black;
+    font-weight: 300;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+
+}
+
+.text-box p{
+    font-size: 15px;
+    font-family: 'Nobile', sans-serif;
+    text-shadow: 0 0 3px black;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+button {
+    display: inline-block;
+    padding: 10px 18px;
+    color: white;
+    cursor: pointer;
+    background: none;
+    margin-left: 25px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+/* ------- Styling footer -------- */
+footer {
+    background: black;
+    text-align: center;
+    color: white;
+}
