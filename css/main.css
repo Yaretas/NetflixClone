@@ -58,6 +58,7 @@ a:hover{
     color: red;
     box-shadow: 0 3px 0 0 red;
 }
+
 /* ----- showCase menu style ------ */
 .showCase-menu{
     /* padding: 200px 25px;
@@ -121,11 +122,16 @@ button {
     display: inline-block;
     padding: 10px 18px;
     color: white;
+    font-family: 'Nobile', sans-serif;
     cursor: pointer;
     background: none;
     margin-left: 25px;
     border-radius: 5px 5px 5px 5px;
 
+}
+.fancy-btn:hover {
+    background-color: white;
+    color: black;
 }
 /* ------- Styling footer -------- */
 footer {
