@@ -143,27 +143,27 @@ button {
     color: white;
     display: flex;
     flex-direction: column;
+    padding-top: 3px;
 }
 
-.movie-selection1{
+.movie-container h2{
+    margin: 0;
+    font-weight: 0;
+    font-size: 16px;
+}
+
+.movie-selection{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
-.movie-selection2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-}
-
-.movie-selection3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+.movie-selection div {
+    background: url(https://i.pinimg.com/originals/35/5d/65/355d65da2e1dc28b3399951765bc5fb1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+    margin: 0.3%;
 }
 
 
