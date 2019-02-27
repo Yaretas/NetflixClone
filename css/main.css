@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
 body{
     display: block;
-    font-family: 'Nobile', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 /* -------- Styling the menu-mar ------- */
 #nav-bar{
@@ -13,7 +15,6 @@ body{
     display: inline-block;
     padding: 20px;
     color: red;
-    background: pink;
 }
 
 .left {
@@ -31,7 +32,7 @@ body{
     padding: 10px;
 }
 .horizontalList a{
-    color: white;
+    color:#CCCCCC;
     text-decoration: none;
 }
 
@@ -56,7 +57,7 @@ body{
     padding: 10px;
 }
 .sub-menu li a{
-    color: white;
+    color:#CCCCCC;
     text-decoration: none;
 }
 a:hover{
@@ -87,7 +88,6 @@ a:hover{
 
 .text-box h1{
     font-size: 80px;
-    font-family: 'Hanalei Fill', cursive;
     text-shadow: 5px 5px 5px black;
     font-weight: 700;
     margin-top: 0px;
@@ -98,7 +98,6 @@ a:hover{
 
 .text-box h4{
     font-size: 16px;
-    font-family: 'Permanent Marker', cursive;
     text-shadow: 0 0 3px black;
     font-weight: 300;
     margin-top: 0;
@@ -109,7 +108,6 @@ a:hover{
 
 .text-box p{
     font-size: 15px;
-    font-family: 'Nobile', sans-serif;
     text-shadow: 0 0 3px black;
     font-weight: 100;
     margin-top: 20px;
@@ -123,7 +121,6 @@ button {
     display: inline-block;
     padding: 10px 18px;
     color: white;
-    font-family: 'Nobile', sans-serif;
     cursor: pointer;
     background: none;
     margin-left: 25px;
@@ -140,7 +137,7 @@ button {
 
 .movie-container{
     background: black;
-    color: white;
+    color: #CCCCCC;
     display: flex;
     flex-direction: column;
     padding-top: 3px;
@@ -148,7 +145,9 @@ button {
 
 .movie-container h2{
     margin: 0;
-    font-weight: 0;
+    padding-top: 3px;
+    padding-left: 10px;
+    font-weight: 100;
     font-size: 16px;
 }
 
@@ -189,22 +188,76 @@ button {
 }
 
 .movie5{
-    background: url(https://i.pinimg.com/originals/35/5d/65/355d65da2e1dc28b3399951765bc5fb1.jpg);
+    background: url(https://static1.squarespace.com/static/575adcf11bbee0fd2d9aa5f8/t/5a56b0a053450ad1024dcdec/1515630780096/Bright+horizontal+Poster?format=750w);
     background-size: cover;
     background-position: center;
 }
 
 .movies1{
-    background: url(https://i.pinimg.com/originals/35/5d/65/355d65da2e1dc28b3399951765bc5fb1.jpg);
+    background: url(https://www.tysonsreporter.com/files/2019/02/blackpanther2.jpeg);
     background-size: cover;
     background-position: center;
 }
 
+.movies2{
+    background: url(https://flyonthescreen.files.wordpress.com/2014/02/300-rise-of-an-empire-movie-poster-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
+.movies3{
+    background: url(https://cdn1.thecomeback.com/wp-content/uploads/2016/08/Guardians-of-the-Galaxy-img.1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movies4{
+    background: url(https://static1.squarespace.com/static/592b020a8419c2e1dd1199dc/t/5ade956d562fa708193bace8/1524536694592/Infinity-War-Movie-New-Presales-Record.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movies5{
+    background: url(http://cdn1.sciencefiction.com/wp-content/uploads/2017/05/wonder-woman-e1495207998839.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.movies-b1{
+    background: url(https://designobserver.com/media/images/11.03.13.14_525.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movies-b2{
+    background: url(https://i.pinimg.com/736x/2b/56/d1/2b56d14f20ac0101874c02f6b236b85e--dark-shades-the-text.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movies-b3{
+    background: url(https://i0.wp.com/new.hollywoodgothique.com/wp-content/uploads/2012/10/frankenstein-poster-horizontal.jpg?fit=704%2C508);
+    background-size: cover;
+    background-position: center;
+}
+
+.movies-b4{
+    background: url(https://horrornews.net/wp-content/uploads/2011/11/Evil-Dead-II-poster-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movies-b5{
+    background: url(https://blog.frame.io/wp-content/uploads/2017/12/gravity_banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 /* ------- Styling footer -------- */
 footer {
+    padding: 20px;
+    align-content: flex-end;
     background: black;
     text-align: center;
-    color: white;
+    color: #CCCCCC;
 }
