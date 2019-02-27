@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Anton|Varela+Round');
 
 body{
     display: block;
@@ -13,7 +13,9 @@ body{
 
 .logo{
     display: inline-block;
-    padding: 20px;
+    padding: 12px;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
     color: red;
 }
 
@@ -24,7 +26,7 @@ body{
 
 .horizontalList{
     list-style: none;
-    padding: 20px;
+    padding: 12px;
     margin: 0;
 }
 .horizontalList li{
@@ -33,6 +35,7 @@ body{
 }
 .horizontalList a{
     color:#CCCCCC;
+    font-weight: 100;
     text-decoration: none;
 }
 
@@ -51,6 +54,7 @@ body{
     list-style: none;
     padding: 20px;
     margin: 0;
+    font-weight: 100;
 }
 .sub-menu li{
     display: inline;
@@ -94,6 +98,10 @@ a:hover{
     margin-left: 10px;
     margin-bottom: 0px;
 
+}
+
+.ms{
+    font-family: 'Anton', sans-serif;
 }
 
 .text-box h4{
