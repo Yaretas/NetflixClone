@@ -66,7 +66,7 @@ body{
 }
 a:hover{
     color: red;
-    box-shadow: 0 3px 0 0 red;
+    box-shadow: 0 2px 0 0 red;
 }
 
 /* ----- showCase menu style ------ */
@@ -132,7 +132,7 @@ button {
     cursor: pointer;
     background: none;
     margin-left: 25px;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 50px 50px 50px 50px;
 
 }
 .fancy-btn:hover {
@@ -259,6 +259,43 @@ button {
     background: url(https://blog.frame.io/wp-content/uploads/2017/12/gravity_banner.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.movie1:hover{
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 640px){
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin: 0;    
+    }
+
+    .dropDown-content{
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropDown-content{
+        display: block;
+    }
+
+    .text-box h1{
+        font-size: 35px;
+    }
+    .text-box h4{
+        font-size: 12px;
+    }
+    .text-box p{
+        font-size: 12px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
 }
 
 /* ------- Styling footer -------- */
