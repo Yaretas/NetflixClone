@@ -6,7 +6,7 @@ body{
 }
 /* -------- Styling the menu-mar ------- */
 #nav-bar{
-    background-color: black;
+    background-color:black;
     overflow: auto;
     margin: 0;
 }
